@@ -56,16 +56,18 @@
 
 .post1{
     display: grid;
-    grid-template-columns:50px 250px 50px; 
+    grid-template-columns:25% 50% 22%; 
     grid-gap: 5px;
     border-bottom:2px rgb(211, 211, 211) solid;
     /* grid-auto-rows: minmax(60px, auto); */
-    align-items: center;    
+    align-items: center;  
+    padding: 10px 0px;  
 }
 
 .perfilFoto{
     width: 320px;
     height: 320px;
+    margin-top: -32px;
 }
 
 .ensayo{
@@ -75,7 +77,8 @@
     width:364px;
     height: 549px;
     border: 2px rgb(224, 224, 224) solid;
-    align-items: center;    
+    align-items: center; 
+    align-content: space-between;   
 }
 
 .ensayo img {
@@ -84,7 +87,7 @@
 
 .iconos{
     padding-left: 20px;
-    margin-top: -18px;
+    margin-top: -44px;
     
      
  }
