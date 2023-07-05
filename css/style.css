@@ -50,7 +50,7 @@
     display: flex;
     justify-content: space-around;
     height: 549px;
-    border-radius: rgb(211, 211, 211) 2px solid;
+    margin-bottom: 30px;
     
 }
 
@@ -117,8 +117,15 @@ h4{
     color:#A49B9B;
 }
 
-.sugerencia {
+.sugerencias {
     display: none;
+}
+
+footer{
+    background-color: #222222;
+    color:white;
+    text-align: center;
+    padding: 5px;
 }
 
 
