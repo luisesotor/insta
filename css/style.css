@@ -128,6 +128,68 @@ footer{
     padding: 5px;
 }
 
+@media(min-width:481px){
+
+    .perfiles{
+   justify-content: flex-start;
+   margin-left: 70px;
+    }
+
+    .history{
+        grid-template-columns: repeat(7, 1fr); 
+        width: 600px;
+    }
+
+    .history img:nth-child(3), img:nth-child(5), img:nth-child(7){
+        display: block;
+        
+    }
+
+    .post{
+        justify-content: flex-start;
+        margin-left: 80px; 
+         
+    }
+
+    .ensayo{
+        width: 600px; 
+        height: 720px;
+    }
+
+    .post1 img{
+       padding-left: 30px;
+    }
+
+    .perfilFoto{
+        width: 488px;
+        height: 488px;
+    }
+
+    .iconos, .info{
+        padding-left: 55px;
+    }
+
+    .sugerencias{
+        display: inline;
+    }
+
+    .sugerenciasDiv{
+        display: grid;
+        width: 284px;
+        height: 175px;
+    }
+
+    .divFlexOne{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+  
+    footer{
+        display: none;
+    }
+    
+}
+
 
 
 
